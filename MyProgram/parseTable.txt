@@ -1,0 +1,16 @@
+Format,UID,:=,;,if,then,fi,else,while,do,done,c,<,=,!=,+,-,$
+S,L,null,null,L,null,null,null,L,null,null,null,null,null,null,null,null,null
+L,I,null,null,I,null,null,null,I,null,null,null,null,null,null,null,null,null
+F,L,null,null,L,null,EPS,EPS,L,null,EPS,null,null,null,null,null,null,EPS
+I,A,null,null,C,null,null,null,W,null,null,null,null,null,null,null,null,null
+A,uid,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
+C,null,null,null,if,null,null,null,null,null,null,null,null,null,null,null,null,null
+W,null,null,null,null,null,null,null,while,null,null,null,null,null,null,null,null,null
+O,null,null,null,null,null,EPS,else,null,null,null,null,null,null,null,null,null,null
+E,E2,null,null,null,null,null,null,null,null,null,E2,null,null,null,null,null,null
+R,null,null,null,null,EPS,null,null,null,EPS,null,null,op1,op1,op1,null,null,null
+E2,T,null,null,null,null,null,null,null,null,null,T,null,null,op1,null,null,null
+K,null,null,null,null,EPS,null,null,null,EPS,null,null,EPS,EPS,EPS,op2,op2,null
+T,uid,null,null,null,null,null,null,null,null,null,c,null,null,null,null,null,null
+op1,null,null,null,null,null,null,null,null,null,null,null,<,=,!=,null,null,null
+op2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,+,-,null

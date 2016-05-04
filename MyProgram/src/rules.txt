@@ -1,0 +1,15 @@
+S,L
+L,I,|,F
+F,L,|,EPS
+I,A,|,C,|,W
+A,uid,:=,E,;
+C,if,E,then,L,O,fi
+W,while,E,do,L,done
+O,else,L,|,EPS
+E,E2,R
+R,op1,E2,R,|,EPS
+E2,T,K
+K,op2,E2,|,EPS
+T,c,uid
+op1,<,|,=,|,!=
+op2,+,|,-
